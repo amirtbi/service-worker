@@ -85,5 +85,6 @@
     } else {
       navigator.serviceWorker.controller.postMessage(msg);
     }
+    console.log("Caches", CacheStorage);
   }
 })();
